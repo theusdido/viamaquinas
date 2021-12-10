@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{SERVER_PORT} 80
+    
+    RewriteRule ^/$ /viamaquinas/index.php [R,L]
+    #RewriteRule ^(.*)$ /viamaquinas/index.php?controller=$1 [R,L]
+    #RewriteRule ^(atividade[\/].*)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(tipo_atividade/form)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(tipo_atividade/listar)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(tipo_atividade/form)\/([0-9])$ /viamaquinas/index.php?controller=$1&id=$2 [R,L]
+    RewriteRule ^(tipo_atividade/processa)$ /viamaquinas/index.php [R,L]
+
+    RewriteRule ^(atividade/form)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(atividade/listar)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(atividade/form)\/([0-9])$ /viamaquinas/index.php?controller=$1&id=$2 [R,L]
+    RewriteRule ^(atividade/processa)$ /viamaquinas/index.php [R,L]
+    RewriteRule ^(atividade/abertas)$ /viamaquinas/index.php?controller=$1 [R,L]
+    RewriteRule ^(atividade/concluidas)$ /viamaquinas/index.php?controller=$1 [R,L]
+</IfModule>
