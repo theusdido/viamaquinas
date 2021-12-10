@@ -1,4 +1,13 @@
 <?php
+    /*
+        * MILES Framework
+        * @link http://www.teia.tec.br
+        * @license : Via Máquinas
+
+        * Página de formulário de cadastro de atividade
+        * Data de Criacao: 09/12/2021
+        * @author Edilson Valentim dos Santos Bitencourt (Theusdido)
+    */
 
     $pagina                 = tdc::o('pagina');
 

@@ -1,5 +1,14 @@
 <?php
-    
+    /*
+        * MILES Framework
+        * @link http://www.teia.tec.br
+        * @license : Via Máquinas
+
+        * Página Inicial do Sistema
+        * Data de Criacao: 09/12/2021
+        * @author Edilson Valentim dos Santos Bitencourt (Theusdido)
+    */
+
     // CSS - Estilo
     $cssStyle       = tdc::html('link');
     $cssStyle->rel  = 'stylesheet';

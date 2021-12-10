@@ -1,4 +1,13 @@
 <?php
+    /*
+        * MILES Framework
+        * @link http://www.teia.tec.br
+        * @license : Via Máquinas
+
+        * Realiza a autenticação do usuário
+        * Data de Criacao: 10/12/2021
+        * @author Edilson Valentim dos Santos Bitencourt (Theusdido)
+    */
 	$error	= array();
 	$login 	= tdc::r("login");
 	$senha 	= tdc::r("senha");

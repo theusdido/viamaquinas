@@ -1,4 +1,13 @@
 <?php
+    /*
+        * MILES Framework
+        * @link http://www.teia.tec.br
+        * @license : Via Máquinas
+
+        * Processa do CRUD e ações das atividades
+        * Data de Criacao: 09/12/2021
+        * @author Edilson Valentim dos Santos Bitencourt (Theusdido)
+    */
     $op         = tdc::r('op');
     $error      = array();
     switch($op){
